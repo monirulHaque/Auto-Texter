@@ -4,15 +4,28 @@ import emoji
 import pyperclip
 
 
-def keepPrintingMessages(times, comments):
+def keepTypingMessages(times, comments):
+    '''
+    This function keeps typing the strings in comments list.
+    Waits for 5 seconds so that the user can place his cursor in position.
+    Total messages typed on screen will be equals to times variable.
+    After that it will stop.
+    '''
     time.sleep(5)
     for i in range(times):
         pyautogui.typewrite(comments[i % len(comments)])
         pyautogui.typewrite("\n")
+        print(i)
         time.sleep(1)
 
 
 def keepTypingEmojis(times, emo, pyramidSize):
+    '''
+    This function keeps typing the and making emoji pyramid with the passed emoji in emo variable.
+    Waits for 5 seconds so that the user can place his cursor in position.
+    Total pyramids created on screen will be equals to times variable.
+    After that it will stop.
+    '''
     time.sleep(5)
     n = 1
     for i in range(times):
@@ -39,5 +52,5 @@ emo = emoji.demojize("😒")
 
 ################### Call functions from here ############################
 # Just call a function as shown below and tweak the parameters as you wish to have
-# keepPrintingMessages(100, comments)
+# keepTypingMessages(100, comments)
 # keepTypingEmojis(100, emo, 4)
