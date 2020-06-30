@@ -35,8 +35,9 @@ comments = ["Hi", "hey beautiful <3 :*", "ki khobor? 😒😒😒😒😒😒", 
 
 # paste your emoji here
 emo = emoji.demojize("😒")
-# print(type(emo))
-# print(emo)
-# pyautogui.alert(emoji.emojize(emo))
 
-keepTypingEmojis(100, emo, 4)
+
+################### Call functions from here ############################
+# Just call a function as shown below and tweak the parameters as you wish to have
+# keepPrintingMessages(100, comments)
+# keepTypingEmojis(100, emo, 4)
