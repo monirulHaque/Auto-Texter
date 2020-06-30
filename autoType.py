@@ -33,6 +33,7 @@ def keepTypingEmojis(times, emo, pyramidSize):
             pyperclip.copy(emoji.emojize(emo))
             pyautogui.hotkey("ctrl", "v")
 
+        time.sleep(0.5)
         pyautogui.typewrite("\n")
         n = n+1
         if n > pyramidSize:
@@ -43,8 +44,8 @@ def keepTypingEmojis(times, emo, pyramidSize):
 
 ################### Input messages here #################################
 # write your comments/messages here
-comments = ["Hi", "hey beautiful <3 :*", "ki khobor? 😒😒😒😒😒😒", "amar sathe date e jaba?",
-            "kotha bolo na keno? :'( ", "ami ugly bole? T_T", "tomake treat dibo", "ami tution kore 50k salary pai"]
+comments = ["Hi", "hey beautiful <3 :*", "ki khobor?", "amar sathe date e jaba?",
+            "kotha bolo na keno? :'( ", "ami ugly bole? T_T", "tomake treat dibo", "ki holo jaba na?"]
 
 # paste your emoji here
 emo = emoji.demojize("😒")

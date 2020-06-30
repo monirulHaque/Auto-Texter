@@ -2,7 +2,14 @@
 
 A simple python automation program to auto type and send messages and emojis.
 
+# Demo
+
+![keepTypingMessages() function Demo](demo/comments.gif)
+
+![keepTypingEmojis() function Demo](demo/emojis.gif)
+
 # Requirements
+
 Install requirements via command
 
 ```
