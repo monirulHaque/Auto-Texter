@@ -4,8 +4,9 @@ A simple python automation program to auto type and send messages and emojis.
 
 # Demo
 
+Keep typing messages demo:
 ![keepTypingMessages() function Demo](demo/comments.gif)
-
+Keep making emoji triangles demo:
 ![keepTypingEmojis() function Demo](demo/emojis.gif)
 
 # Requirements
