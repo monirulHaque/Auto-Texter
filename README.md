@@ -2,7 +2,7 @@
 
 A simple python automation program to auto type and send messages and emojis.
 
-#Requirements
+# Requirements
 Install requirements via command
 
 ```
